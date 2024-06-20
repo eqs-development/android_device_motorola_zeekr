@@ -38,8 +38,7 @@ ODM_MANIFEST_N_FILES   := $(DEVICE_PATH)/manifests/manifest_n.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += \
-	vendor/ext_config/moto-waipio-zeekr.config \
-	vendor/ext_config/lineage-moto-waipio-zeekr.config
+	vendor/ext_config/moto-waipio-zeekr.config
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 243570552832

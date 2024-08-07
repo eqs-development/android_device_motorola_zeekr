@@ -638,9 +638,6 @@ vendor/lib64/libpn560_fw.so
 vendor/lib64/libsn100u_fw.so
 vendor/lib64/libsn220u_fw.so
 
-# OEM
-vendor/etc/vhw.xml
-
 # Sensors
 vendor/bin/hw/motorola.hardware.sensorext-service
 vendor/etc/init/motorola.hardware.sensorext.service.rc

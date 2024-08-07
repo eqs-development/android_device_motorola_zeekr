@@ -22,10 +22,6 @@ include device/motorola/sm8475-common/BoardConfigCommon.mk
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := zeekr
 
-# Fingerprint
-#TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.zeekr
-#SOONG_CONFIG_qtidisplay_udfps := true
-
 # HIDL
 DEVICE_MANIFEST_CAPE_FILES += $(DEVICE_PATH)/manifests/manifest_zeekr.xml
 ODM_MANIFEST_SKUS += dnp dn nep ne np n

@@ -646,15 +646,20 @@ vendor/lib64/libflatbuffers-cpp_vendor.so
 vendor/lib64/libruy_vendor.so
 vendor/lib64/libtextclassifier_hash_vendor.so
 vendor/lib64/libtflite_vendor.so
+vendor/lib64/panel_als_comp_filter_juno.so
 
 # Sensor - configs
 vendor/etc/sensors/als_comp_config.xml
 vendor/etc/sensors/als_comp_config_cli.xml
 vendor/etc/sensors/als_comp_tf_cli.config
+vendor/etc/sensors/als_comp_tf_cli_csot_c8.config
+vendor/etc/sensors/als_comp_tf_cli_csot_c8_dc_on.config
 vendor/etc/sensors/als_comp_tf_cli_dc_on.config
 vendor/etc/sensors/als_comp_tf_csot_a.config
 vendor/etc/sensors/als_comp_tf_csot_b.config
 vendor/etc/sensors/als_comp_tf_csot_b_dc_on.config
+vendor/etc/sensors/als_comp_tf_csot_c8.config
+vendor/etc/sensors/als_comp_tf_csot_c8_dc_on.config
 vendor/etc/sensors/config/bmp5_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/lsm6dso_1.json

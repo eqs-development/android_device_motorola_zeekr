@@ -97,10 +97,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/unavail.android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_n/unavail.android.hardware.sensor.barometer.xml \
     $(LOCAL_PATH)/permissions/unavail.android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_ne/unavail.android.hardware.sensor.barometer.xml
 
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.zeekr
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.zeekr

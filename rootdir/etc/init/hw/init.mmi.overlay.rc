@@ -54,13 +54,6 @@ on early-boot
     chown system system /mnt/vendor/persist/sensors/als_comp_multi_cal_raw
     chmod 0664 /mnt/vendor/persist/sensors/als_comp_multi_cal_raw
 
-on post-fs
-    # Sensors
-    chown system system /sys/devices/platform/soc/990000.spi/spi_master/spi1/spi1.0/touchscreen/primary/double_tap_enabled
-    chown system system /sys/devices/platform/soc/990000.spi/spi_master/spi1/spi1.0/touchscreen/primary/double_tap_pressed
-    chown system system /sys/devices/platform/soc/884000.spi/spi_master/spi2/spi2.1/touchscreen/secondary/double_tap_enabled
-    chown system system /sys/devices/platform/soc/884000.spi/spi_master/spi2/spi2.1/touchscreen/secondary/double_tap_pressed
-
 on post-fs-data
     # Param updater data for various modules
     mkdir /data/vendor/param 0775 system system

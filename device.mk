@@ -39,7 +39,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksResZeekr \
     LineageSystemUIZeekr \
-    SettingsProviderResZeekr \
     SystemUIResZeekr
 
 # Audio

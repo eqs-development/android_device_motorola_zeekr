@@ -36,4 +36,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=zeekr_g
 
-BUILD_FINGERPRINT := motorola/zeekr_g/msi:13/T1TZ33M.3-62-9/b03d7b:user/release-keys
+BUILD_FINGERPRINT := motorola/zeekr_g/msi:14/U3TZ34M.2-75-5/ee4b9d:user/release-keys

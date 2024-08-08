@@ -592,8 +592,6 @@ product/etc/permissions/com.motorola.camera3.content.ai.xml:vendor/etc/permissio
 product/etc/permissions/com.motorola.camera3.zeekr.xml:vendor/etc/permissions/com.motorola.camera3.zeekr.xml
 product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml
 product/etc/permissions/com.motorola.moto-uirefresh.xml
-product/etc/permissions/com.motorola.motodisplay.xml
-product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
 
 # NFC
 vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service

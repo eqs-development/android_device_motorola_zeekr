@@ -8,9 +8,6 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/libancbase_rt_fusion.so)
-            ${PATCHELF} --set-soname libancbase_rt_fusion.so "${2}"
-            ;;
         vendor/lib/libcamximageformatutils.so | vendor/lib64/libcamximageformatutils.so)
             ${PATCHELF} --replace-needed "vendor.qti.hardware.display.config-V2-ndk_platform.so" "vendor.qti.hardware.display.config-V2-ndk.so" "${2}"
             ;;

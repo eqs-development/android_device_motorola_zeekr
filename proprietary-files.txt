@@ -715,7 +715,9 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/tcs3720_0.json
 vendor/etc/sensors/config/tcs3720_0_csotb_always.json
+vendor/etc/sensors/config/tcs3720_0_csotc8_always.json
 vendor/etc/sensors/config/tcs3720_1.json
+vendor/etc/sensors/config/tcs3720_1_csotc8_always.json
 vendor/etc/sensors/config/tcs3720_1_dvt1a.json
 vendor/etc/sensors/config/tcs3720_1_pvt.json
 vendor/etc/sensors/config/waipio_default_sensors.json

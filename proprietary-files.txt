@@ -560,6 +560,7 @@ vendor/firmware/cps4019.bin
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1056x1068_363.json
 vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.json
+vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667_c8.json
 vendor/etc/display/qdcm_calib_data_mipi_mot_cmd_tianma_1080p_667.json
 vendor/etc/display/qdcm_calib_data_mipi_mot_video_dummy_qhd.json
 vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json

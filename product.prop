@@ -1,2 +1,5 @@
 # Moto
 ro.vendor.product.display=motorola razr 40 ultra
+
+# Radio
+ro.vendor.radio.imei.sv=4

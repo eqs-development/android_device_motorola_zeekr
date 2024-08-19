@@ -60,5 +60,9 @@ VENDOR_SECURITY_PATCH := 2024-05-01
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Verified Boot
+BOARD_AVB_ROLLBACK_INDEX := 14
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 14
+
 # inherit from the proprietary version
 include vendor/motorola/zeekr/BoardConfigVendor.mk
